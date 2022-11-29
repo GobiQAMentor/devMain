@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="DesktopCIFTestSafari">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.tests.desktopCIF.DesktopCIFTest">
+				<methods>
+					<include name="TC03_VisitorTypeParentOptionsPage" />
+					<include name="TC25_ScorePage" />
+					<include name="TC24_WhoTheyIntendToBe" />
+					<include name="TC36_VerifyThatCIFIsAbortedIfUserIsInCAAndHasGPCEnabled" />
+					<include name="VerifytheCIFFormAccessibility" />
+					<include name="TC30_VerifySchoolSelectionList" />
+					<include name="TC31_VerifyCollegeSelectionList" />
+					<include name="TC28_OptionalFields" />
+					<include name="TC04_NameInformationPage" />
+					<include name="TC26_DemographicPage" />
+					<include name="TC29_ClosedButton" />
+					<include name="TC12_OtherCounselorDemographic" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="Experience360TestsFirefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.tests.experience360.Experience360Test">
+				<methods>
+					<include name="Experience360_TC01TC02HomePageElementsStonybrook" />
+					<include name="Experience_360_TC04OaklandRennaisanceHotspots" />
+					<include name="Experience_360_TC03NauVisitOaklandHotSpots" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

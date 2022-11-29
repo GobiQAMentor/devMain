@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="DesktopRegistrationLegacyFormTestsSafari">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.tests.desktopRegistrationLegacyForm.DesktopRegistrationLegacyFormTests">
+				<methods>
+					<include name="C15780_RegisterAsStudentHighSchoolStudentByFillingValidMandatoryDetailsInAllTheFields" />
+					<include name="C15781_VerifyTheUserCanRegisterAsParentHighSchoolStudentByFillingMandatoryValidDetails" />
+					<include name="C15782_RegisterAsOtherFacultyNameWithFillingValidMandatoryData" />
+					<include name="C15783_RegisterAsOtherCounselorNameWithFillingValidMandatoryData" />
+					<include name="C15784_RegisterAsOtherCurrentStudentNameWithFillingValidMandatoryData" />
+					<include name="C15785_RegisterAsAlumniWithFillingValidMandatoryData" />
+					<include name="C15771_RegisterAsStudentHighSchoolStudentByFillingValidDetailsInAllTheFields" />
+					<include name="C15775_VerifyTheUserCanRegisterAsParentHighSchoolGraduateByFillingValidDetails" />
+					<include name="C32577_VerifyTheEthnicityDropdown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

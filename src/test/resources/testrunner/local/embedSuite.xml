@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="EmbedCodeTestLocal">
+		<parameter name="browser" value="localchrome" />
+		<classes>
+			<class name="com.tests.embedCode.EmbedCodeTest">
+				<methods>
+					<include name="EmbedCode1_HoverImmersiveHoverPanelSmallStaticSize" />
+					<include name="EmbedCode2_InlineEmbed" />
+					 <include name="EmbedCode3_NewTabCustomorText" />
+					<include name="EmbedCode6_StopOnly" />
+					<include name="EmbedCode7_Stop" />
+					<include name="EmbedCode4_EmbedCodeValidThirdParty" />
+					<include name="EmbedCode5_RenderedLinkInvalidDefault" />
+					<include name="EmbedCode_ResettingTheEmbedNoReRender" />
+					<include name="EmbedCode9_IdenticalBehaviourToVTE" />
+					<include name="EmbedCode_Resetting1EmbedLink" />
+					<include name="EmbedCodeResettingTheEmbedScanEmbedAgain" />
+					<include name="EmbedCode10_RenderedLinkInvalidDefault" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

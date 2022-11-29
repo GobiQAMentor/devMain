@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test verbose="2" preserve-order="true"	name="AAP_VerifyAudienceAnalytics">
+		<classes>
+			<class name="com.tests.aap.AAPTests">
+				<methods>
+					<include name="aapVerifyGeographyAgeGenderEthinicitySubFiltersInquiriesOfDemographics" />
+					<include name="aapVrifyListMembershipFilterInquiries" />
+					<include name="aapVerifyLocationsFilters" />
+					<include name="aapVerifyExplorePageColumnAndFieldConfiguration" />
+					<include name="aapVerifyListPageColumnAndFieldConfiguration" />
+					<include name="aapVerifySearchOnInquiriesList" />
+					<include name="aapVerifySortingInquiriesListList" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

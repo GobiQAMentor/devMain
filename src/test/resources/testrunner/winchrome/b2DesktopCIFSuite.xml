@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="b2DesktopCIFTestWinChrome">
+		<parameter name="browser" value="winchrome" />
+		<classes>
+			<class name="com.tests.desktopCIF.DesktopCIFTest">
+				<methods>
+					<include name="TC01_WelcomePageVisitorType" />
+					<include name="TC02_TermsConditionsOnWelcomePageUS" />
+					<include name="TC09_OtherVeteranName" />
+					<include name="TC03_VisitorTypeOtherOptionsPage" />
+					<include name="TC15_ProspectiveStudentCollageStudentAdditionalInformation" />
+					<include name="TC16_ProspectiveStudentCollegeGraduateAdditionalInformation" />
+					<include name="TC17_ProspectiveStudentAdultAdditionalInformation" />
+					<include name="TC18_ProspectiveStudentMiddleSchoolStudentAdditionalInformation" />
+					<include name="TC13_ProspectiveStudentHSSAdditionalInformation" />
+					<include name="TC14_ProspectiveStudentHSGAdditionalInformation" />
+					<include name="TC27_AdditionalInfoPage" />
+					<include name="TC03_VisitorTypeProspectiveStudentOptionsPage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

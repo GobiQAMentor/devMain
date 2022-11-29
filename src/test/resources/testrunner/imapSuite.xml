@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="ImapTest">
+		<classes>
+			<class name="com.tests.imap.ImapTest">
+				<methods>
+					<include name="IMAP1_TC01_Desktop_InteractiveMap_VerifyLaunching" />
+					<include name="IMAP2_TC02_DesktopInteractiveMapVerifyDestinationSideBar" />
+					<include name="IMAP3_TC03_Desktop_InteractiveMap_VerifyVisitedStatus" />
+					<include name="IMAP4_TC04_Desktop_InteractiveMap_VerifyDestinationInfoModal" />
+					<include name="IMAP_TC05_Desktop_InteractiveMap_VerifySupplementalMedia" />
+					<include name="IMAP_TC08_InteractiveMap_VerifyPhotoMediaContents" />
+					<include name="IMAP_TC13_Desktop_VerifyRegistrationOnIMAP" />
+					<include name="IMAP_TC11_Desktop_InteractiveMap_VerifyCTAButtons" />
+					<include name="IMAP_TC06_Desktop_InteractiveMap_VerifyPanoramaMediaContents" />
+					<include name="IMAP_TC07_InteractiveMap_VerifyVideoMediaContents" />
+					<include name="IMAP_TC09_InteractiveMap_VerifyTrials" />
+					<include name="IMAP_TC10_DesktopInteractiveMapVerifyDirectionsModal" />
+					<include name="IMAP_TC12_Desktop_VerifyView_ScreenSize" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

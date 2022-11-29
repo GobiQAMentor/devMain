@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="MobileRegistrationLegacyFormTestsIosSafari">
+	<parameter name="browser" value="iossafari" />
+	
+		<classes>
+			<class name="com.tests.mobileRegistrationLegacyForm.MobileRegistrationLegacyFormTest">
+				<methods>
+					<include name="MobileRegistrationLegacyForm_MRLF_TC01_VerifyHighSchoolStudentRegistrationWithValidData" />
+					<include name="MRLF_TC02_RegisterAsStudentCollegeGraduateByFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC03_RegisterAsFacultyOrStaff" />
+					<include name="MRLF_TC04_RegisterAsCounsellorByFillingValidDetailsInMandatoryFields" />
+					<include name="MRLF_TC05_RegisterAsAlumniByFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC06_RegisterAsCurrentStudentByFillingValidDetailsInMandatoryFields" />
+					<include name="MRLF_TC07_RegisterAsCurrentStudentByFillingValidDetailsInMandatoryFieldsRegisterAsStudentHighSchoolStudentByFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC08_RegisterAsStudentTransferStudenteByFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC09VerifyRegisterAsParentHighSchoolStudentByFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC10VerifyRegisterAsParentCollegeGraduateFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC11_VerifyRegisterAsParentTransferStudentFillingValidDetailsInAllTheFields" />
+					<include name="MRLF_TC12_RegisterAsParentHighSchoolGraduateByFillingValidDetailsInAllTheFields" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

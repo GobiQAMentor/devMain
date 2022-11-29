@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="TryItOutTestsLocal">
+		<parameter name="browser" value="localchrome" />
+		<classes>
+			<class name="verifyTestPages.PagesComponents">
+				<methods>
+					<include name="verifyDragAndDrop" />
+<!--					<include name="TC3_VerifyCollegeSearchOtherButtonOptions" />
+					<include name="verifyMicrosftSignIn
+  	 				<include name="VerifyEabSSOLogin" />
+	 				<include name="verifyMicrosftSignIn" />
+ 	 				<include name="verifyGoogleSignIn" />
+ 	 				<include name="verifyHorizontalScroll" />
+ 	 				<include name="verifyVedio" /> -->
+				</methods>
+			</class>  
+<!--	 			<class name="tryout.ApiAndAnalytics">
+				<methods>
+ 	 				<include name="jmeterTest" /> 
+ 	 				<include name="verifyVedio" />
+				</methods>
+			</class> 
+ 			<class name="com.tests.apiAnalyticsTests.AnalyticsTests">
+				<methods>
+					<include name="jmeterTest"/>
+					<include name="AnalyticsAllTests" />
+ 	 				<include name="TC01_AnalyticsSession" />
+ 	 				<include name="TC02_AnalyticsActions" />
+ 	 				<include name="TC03_AnalyticsRegistration" />
+ 	 				<include name="TC04_AnalyticsStops" />
+ 	 				<include name="TC05_AnalyticsModules" />
+				</methods>
+			</class>-->
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1598468619784,796,TC01_Positive Test Case: API Call Succeeds,200,OK,API_Testing 1-1,text,true,,55193,248,1,1,789,0,551
+1598468620582,65,TC02_Negative Test: API Key does not exist,403,Forbidden,API_Testing 1-1,text,true,,844,257,1,1,65,0,0
+1598468620648,70,TC03_Negative Test: Valid API Key & IP (ie AlLL) request does not match the partner request,403,Forbidden,API_Testing 1-1,text,true,,836,256,1,1,70,0,0
+1598468620719,73,TC04_Negative Test: Valid API Key & IP (ie AlLL) request does not match the partner request,403,Forbidden,API_Testing 1-1,text,true,,836,256,1,1,73,0,0
+1598468620793,77,TC05_Negative Test: Valid API Key & IP (ie AlLL) request does not match the partner request,403,Forbidden,API_Testing 1-1,text,true,,827,247,1,1,76,0,0

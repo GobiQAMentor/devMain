@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="MobileImapTestsAndroidChrome">
+		<parameter name="browser" value="androidchrome" />
+		<classes>
+			<class name="com.tests.mobileImap.MobileImapTest">
+				<methods>
+					<include name="TC01_VerifyLaunchingIMapOnMobile" />
+					<include name="TC02_VerifyImapDestinationSideBarOnMobile" />
+					<include name="TC07_VerifyIMapCTAButtonOnMobile" />
+					<include name="TC06_VerifyIMapDirectionsOnMobile" />
+					<include name="TC05_VerifyIMapTrialsOnMobile" />
+					<include name="TC04_VerifyIMapSupplementalMediaOnMobile" />
+					<include name="TC03_VerifyIMapDestinationInfoModalOnMobile" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

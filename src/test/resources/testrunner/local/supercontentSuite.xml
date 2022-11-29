@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="SuperContentTestsLocal">
+	<parameter name="browser" value="localchrome" />
+		<classes>
+			<class name="com.tests.supercontent.SuperContentTests">
+				<methods>
+					<include name="superContent01VerifyElementOnScreenSizeW1110xH623" />
+					<include name="superContent01aVerifyElementOnScreenSizeW920xH552" />
+					<include name="superContent02VerifyElementsOnInlineEmbed_360ContentWithHotspots" />
+					<include name="superContent03VerifyElementsOnInlineEmbedStonyBrook" />
+					<include name="superContent04VerifyInlineEmbed_FlatContentWithInteractiveElements" />
+					<include name="superContent05VerifyElementsOnImmersiveBannerHoverPanel" />
+					<include name="superContent06VerifyFeaturesWithScreenSize731px" />
+					<include name="superContent07VerifyFeaturesOnScreenSize731px" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

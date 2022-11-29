@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="collegeSearch">
+		<parameter name="browser" value="localchrome" />
+		<classes>
+			<class name="com.tests.collegeSearch.CollegeSearch">
+				<methods>
+				
+				 <include name="verifyLikesField" />
+<!-- 				    <include name="TC1_VerifyCollegeSearchProspectiveStudentButtonOptions" />
+					<include name="TC2_VerifyCollegeSearchParentButtonOptions" />
+					<include name="TC3_VerifyCollegeSearchOtherButtonOptions" />
+					<include name="TC4_VerifyCollegeSearchButton" />
+					<include name="TC5_CollegeSearchVerifyContinueWithGoogleOption" />
+					<include name="TC6_VerifyCollegeSearchLeftSideOptions" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

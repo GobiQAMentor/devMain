@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test verbose="2" preserve-order="true"	name="MobileCifTestsAndroidChrome">
+		<parameter name="browser" value="androidchrome" />
+		<classes>
+			<class name="com.tests.mobileCIF.MobileCifTest">
+				<methods>
+					<include name="C16434_C16435_WelcomePageVisitorType" />
+					<include name="C66272_VerifyThatCIFIsAbortedIfUserIsInCAAndHasGPCEnabled" />
+					<include name="C16443_ClosedButton" />
+					<include name="C16442_OptionalFields" />
+					<include name="C16439_ScorePage" />
+					<include name="C16437_WhoTheyIntendToBe" />
+					<include name="C16440_DemographicPage" />
+					<include name="C16441_AdditionalInfoPage" />
+					<include name="C16438_VerifyNameInformationPage" />
+					<include name="C16445_VerifyTheUserCanRegisterAsProspectiveStudentHighSchoolStudentEmail" />
+					<include name="C16446_VerifyVerifyTheUserCanRegisterAsProspectiveStudentHighSchoolStudentName" />
+					<include name="C16449_ParentGuardianScorePage" />
+					<include name="C16451_ParentGuardianAdditionalInformation" />
+					<include name="C16450_VerifyTheUserCanRegisterAsProspectiveStudentHighSchoolStudentDemographic" />
+					<include name="C16458_VerifyTheUserCanRegisterAsParentHighSchoolStudentDemographic" />
+					<include name="C16460_VerifyTheUserCanRegisterAsOtherCurrentStudentEmail" />
+					<include name="C16461_VerifyTheUserCanRegisterAsOtherCurrentStudentName" />
+					<include name="C16459_C16452_VerifyTheUserCanRegisterAsParentHighSchoolStudentAdditionalInformation" />
+					<include name="C16444_MiddleSchoolStudentWhoTheyIntendToBe" />
+					<include name="C16436_VerifyVisitorTypeStudentOptionsPage" />
+					<include name="C16447_VerifyVerifyTheUserCanRegisterAsProspectiveStudent_HighSchoolStudent_School" />
+					<include name="C16448_VerifyTheUserCanRegisterAsProspectiveStudentHighSchoolStudentIndendedMajor" />
+					<include name="C16453_VerifyTheUserCanRegisterAsParentHighSchoolStudentEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
